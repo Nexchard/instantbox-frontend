@@ -20,7 +20,7 @@
 docker pull nexsre/instantbox-frontend:latest
 ```
 
-每当对 master 分支进行更改或创建新版本时，GitHub Actions 会自动构建并推送镜像到 Docker Hub。
+每当对 main 分支进行更改或创建新版本时，GitHub Actions 会自动构建并推送镜像到 Docker Hub。
 
 ## 许可证
 
