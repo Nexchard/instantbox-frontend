@@ -1,4 +1,4 @@
-FROM node:16-alpine AS builder
+FROM node:10.15-alpine AS builder
 
 WORKDIR /app
 
@@ -9,7 +9,7 @@ COPY ./public/ /app/public/
 RUN npm run build
 
 
-FROM nginx:stable-alpine
+FROM nginx:1.28-alpine
 
 LABEL \
   org.label-schema.schema-version="1.0" \
