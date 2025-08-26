@@ -12,7 +12,7 @@ RUN npm run build
 FROM nginx:1.28-alpine
 
 LABEL \
-  org.label-schema.schema-version="1.0" \
+  org.label-schema.schema-version="2.0" \
   org.label-schema.name="instantbox-frontend" \
   org.label-schema.vcs-url="https://github.com/instantbox/instantbox-frontend" \
   maintainer="Nexsre Team <team@nexsre.com>"
